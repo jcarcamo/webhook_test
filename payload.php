@@ -12,4 +12,3 @@
     }else{
       echo "Didn't recognized the post";
     }
-?>

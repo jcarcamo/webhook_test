@@ -1,5 +1,6 @@
 <?php
 include_once 'dbinfo.php';
+include_once 'jsonPrettyPrint.php';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -26,7 +27,7 @@ include_once 'dbinfo.php';
     ?>
               <tr>
               <td><?php echo $row[0]; ?></td>
-              <td><?php echo $row[1]; ?></td>
+              <td><?php echo prettyPrint($row[1]); ?></td>
               </tr>
     <?php
        }

@@ -5,4 +5,3 @@
   $datbase = "webhook_test_db";
   mysql_connect($host,$user,$password);
   mysql_select_db($datbase);
-?>
